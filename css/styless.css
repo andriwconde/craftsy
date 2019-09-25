@@ -1,0 +1,111 @@
+body{
+  flex-wrap: nowrap;
+  background-image:url(../img/bg-2.png);
+  background-repeat: repeat;
+  
+}
+header{
+  width:1140px;
+  background-color:red;
+  height: 40px;
+  margin:auto;
+  padding-right: 0px;
+  display: flex;
+}
+footer{
+  width:1140px;
+  background-color:green;
+  height: 30px;
+  margin:auto;
+}
+nav{
+  font-family: arial, helvetica, thaoma, sans-serif;
+font-size:15px;
+display: flex;
+
+}
+#izqui img{
+  height: 35px;
+  margin: 15px;
+  margin-top: 3px;
+}
+li{
+  margin-left: 15px;
+  list-style-type: none;
+}
+.er{
+margin-left: 5px;
+color: white;
+}
+#dere{
+  width: 590px;
+  justify-content:flex-end;
+  margin-right: 0px;
+  padding-top: 0px;
+}
+#der{
+  display: flex;
+
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#izq{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+section #ssd{
+padding-top: 30px;
+width:1140px;
+height: 30px;
+margin:auto;
+}
+h2{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 380px;
+}
+article{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+h5{
+  width: 250px;
+  display: flex;
+}
+#src{
+
+  flex-wrap: wrap;
+  background-color: white;
+  width: 800px;
+}
+#srd{
+  background-color: white;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+#rst{
+  display: flex;
+  flex-direction: row;
+}
