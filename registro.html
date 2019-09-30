@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registro Craftsy</title>
+  <link rel="stylesheet" href="css/style-registro.css">
+</head>
+<body>
+  <header>
+    <nav id="barrai"><a href="craftsy.html">
+      <img src="img/logo.png" alt="logo">
+      </a>
+      <ul id="uliz">
+        <li class="liizqui"><a href="#" class="stroi"><strong>SMARTPHONES</strong></a></li>
+        <li class="liizqui"><a href="#" class="stroi"><strong>TABLETS</strong></a></li>
+        <li class="liizqui"><a href="#" class="stroi"><strong>COMPUTADORAS</strong></a></li>
+      </ul>
+    </nav>
+    <nav id="barrader">
+      <ul id="uliz">
+        <li class="liizqui"><a href="#" class="stroi"><strong>Login</strong></a>  | </li>
+        <li class="liizqui"><a href="#" class="stroi"><strong>Registro</strong></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div id="registro">
+      <h1><strong>REGISTRATE</strong></h1>
+    <form action="registro.php" method="post">
+
+       <label for="Nombre">
+         Nombre
+        </label>
+        <br>
+        <input class="der" type="text" name="text" required placeholder="Nombre">
+        <br>
+        <h5>Obligatorio.</h5>
+
+
+  <label for="email">
+    Email
+  </label>
+  <br>
+  <input class="der" type="email" name="email" required placeholder="Email">
+  <br>
+  <h5>Obligatorio.</h5>
+
+  <label for="Password">
+    Contrase&ntildea
+  </label>
+  <br>
+  <input class="der" type="password" name="password" required placeholder="Contraseña">
+  <br>
+  <h5>Obligatorio.</h5>
+
+<label for="Pais de nacimiento"><h3>Pais de nacimiento</h3></label>
+<select  name="pais" required>
+ <option value="Rus">Rusia</option>
+ <option value="Ale">Alemania</option>
+ <option value="Esp">España</option>
+ <option value="Teg">Tegucigalpa</option>
+ <option value="VZA">Venezuela</option>
+ <option value="Hung">Hungria</option>
+ <option value="CSR">Corea Del Sur</option>
+ <option value="CNE">Corea Del Norte</option>
+ <option value="AUS">Australia</option>
+ <option value="Viet">Vietnam</option>
+</select>
+     <br>
+     <h5>Obligatorio.</h5>
+     <h3>Genero</h3>
+     <label><input class="genero" type="radio" name="sexo" value="masculino">masculino</label>
+     <label><input class="genero"type="radio" name="sexo" value="femenino">femenino</label>
+     <h3>Hobbies</h3>
+     <label><input type="checkbox" name="Hobies" value="Programacion">Programacion</label>
+     <label><input type="checkbox" name="Hobies" value="Nadar">Nadar</label>
+     <br>
+     <label><input type="checkbox" name="Hobies" value="Guitarra">Guitarra</label>
+     <label><input type="checkbox" name="Hobies" value="Futbol">Futbol</label>
+     <h3>Dejanos tus comentarios</h3>
+     <textarea name="comentarios" rows="8" cols="80"></textarea>
+     <label for="terminos"><input type="checkbox">Acepto terminos y condiciones</label>
+     <br>
+     <br>
+    <button id="regitrarme" type="button" name="Registrarme">Registrarme</button>
+    </form>
+    </div>
+  </section>
+</body>
+</html>

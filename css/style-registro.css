@@ -1,0 +1,61 @@
+body{
+  background-image:url(../img/bg-2.png);
+background-repeat: repeat;
+}
+header{
+  width:1140px;
+  background-color:red;
+  height: 40px;
+  margin:auto;
+  display: flex;
+}
+#barrai{
+  display: flex;
+  font-family: arial, helvetica, thaoma, sans-serif;
+  font-size:15px;
+}
+#uliz{
+  display: flex;
+}
+.liizqui{
+  padding-left: 10px;
+list-style-type: none;
+color: white;
+}
+.stroi{
+  color: white;
+  text-decoration: none;
+}
+#barrader{
+  width: 600px;
+  justify-content: flex-end;
+  display: flex;
+  font-family: arial, helvetica, thaoma, sans-serif;
+  font-size:15px;
+}
+section{
+  font-family: arial, helvetica, thaoma, sans-serif;
+  padding-top: 30px;
+  width: 350px;
+  font-weight: bold;
+  margin: auto;
+  color: black;
+}
+section div h1{
+  text-align: center;
+}
+.der{
+  width: 350px;
+}
+section div h5{
+  color: red;
+}
+#regitrarme{
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+}
